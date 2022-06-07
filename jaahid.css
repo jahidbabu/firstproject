@@ -1,0 +1,36 @@
+
+#mainarea div{
+    width: 31%;
+    /* height: 80px;  */
+    float: left;
+    margin: 10px;
+    padding: 20px;
+    transition: 3s;
+
+}
+#mainarea div h1{
+margin-bottom: 20px;
+}
+#mainarea .box1{
+background-color: brown;
+
+}
+#mainarea .box2{
+    background-color: aqua;
+}
+#mainarea .box3{
+    background-color: chartreuse;
+}
+#mainarea .box1:hover{
+transform: scale(.5);
+background-color: cornflowerblue;
+}
+
+#mainarea .box2:hover{
+transform: rotate(360deg);
+background-color: rgb(134, 237, 100);
+}
+
+#mainarea .box3:hover{
+transform: scale(1.2);
+background-color: cornflowerblue;

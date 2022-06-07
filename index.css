@@ -1,0 +1,101 @@
+/* header style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    overflow: hidden;
+    background-color: aqua;
+}
+header .logo{
+        width: 20%;
+        float: left;
+}
+header .logo img{
+            width: 100px;
+            height: 70px;
+            float: left;
+
+}
+/* main style  */
+header .menu{
+    width: 80%;
+    float: left;
+
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    float: left;
+   
+}
+.menu ul li a:hover{
+    background-color: aliceblue;
+}
+.menu ul li a{
+    text-decoration: none;
+    padding: 32px 20px;
+    color: black;
+    font-size: 18px;
+    display: inline-block
+}
+#banner{
+    background-image: url(assets/image/JAD.jpg);
+    height: 95vh;
+    background-position: center;
+}
+#banner h1{
+    padding: 300px 70px;
+    color: rgb(249, 215, 21);
+    font-size: 80px;
+}
+/* box style  */
+#mainarea{
+
+}
+#mainarea div{
+        width: 32%;
+        /* height: 80px;  */
+        float: left;
+        margin: 10px;
+        padding: 20px;
+        transition: 3s;
+
+}
+#mainarea div h1{
+    margin-bottom: 20px;
+}
+#mainarea .box1{
+    background-color: brown;
+
+}
+#mainarea .box2{
+        background-color: aqua;
+}
+#mainarea .box3{
+        background-color: chartreuse;
+}
+#mainarea .box1:hover{
+    transform: scale(.5);
+    background-color: cornflowerblue;
+}
+
+#mainarea .box2:hover{
+    transform: rotate(360deg);
+    background-color: rgb(134, 237, 100);
+}
+
+#mainarea .box3:hover{
+    transform: scale(1.2);
+    background-color: cornflowerblue;
+}
+footer{
+    clear: both;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 50px 20px;
+
+}
